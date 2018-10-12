@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+.bg{
+    background-color:red;
+}
+
+.fg{
+    color:green;
+}
+
+.table-bg1{
+    background-color:aliceblue;
+}
+.table-bg2{
+    background-color:yellow;
+}

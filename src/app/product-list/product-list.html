@@ -1,0 +1,11 @@
+<div>
+    <h1>Products</h1>
+    <a class="btn btn-success btn-sm" routerLink="/products/new">Add New Product</a>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="well" *ngFor="let prd of products">
+            <app-product (updateNotify)="onUpdateNotify($event)" (notify)="onNotify($event)" [product]="prd"></app-product>
+        </div>
+    </div>
+</div>
